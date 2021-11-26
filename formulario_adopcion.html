@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de adopción</title>
+    <link rel="stylesheet" href="registrate.css">
+    <link rel="stylesheet" href="css/splash.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://i.ibb.co/yyHS9FJ/Santuario.png" class="contenido_header nav__items__foto" alt="Santuario" >
+        <a href="../Pantalla/index.html" class="contenido_header nav__itemsderecha">Inicio</a>
+            <li><a href="Quienes_somos.html">¿Quiénes somos?</a></li>
+            	<li><a href="adopcion.html"> adopcion</a></li>
+				<li><a href="listado_mascotas.html"> Mascotas </a></li>
+				<li><a href="Refugios.html"> Refugios </a>
+				<li><a href="contactanos.html">Contacto</a></li>
+				<li><button class="inicio__sesion">Iniciar Sesion</button></li>>
+        </nav>
+    </header>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        
+    </div>
+    <main>
+        <section>
+            <!--Formulario-->
+<form class="form-contacto">
+    <p class="titulo">FORMULARIO DE ADOPCIÓN</p>
+    <div class="formulario">
+        <div class="columna1">
+            <p class="titulo2">INFORMACIÓN PERSONAL</p>
+            <label for="Nombre">
+                <p>Nombre:</p>
+                <input type="text" id="nombre" name="nombre" class="campo" required />
+            </label>
+            <label for="Apellidos">
+                <p>Apellidos:</p>
+                <input type="text" id="apellido" name="apellido" class="campo" required />
+            </label>
+            <label for="DUI">
+                <p>DUI:</p>
+                <input type="text" id="dui" name="dui" class="campo" required />
+            </label>
+            <label for="Trabajo u ocupación">
+                <p>Trabajo u ocupación:</p>
+                <input type="text" id="trabajo" name="trabajo" class="campo" required />
+            </label>
+            <label for="Lugar de residencia">
+                <p>Su lugar de residencia es:</p>
+                <input type="text" id="residencia" name="residencia" class="campo" required />
+            </label>
+            <label for="Dirección">
+                <p>Dirección:</p>
+                <textarea id="direccion" name="direccion" class="campo" required></textarea>
+            </label>
+        </div>
+        <div class="columna 2">
+            <p class="titulo2">INFORMACIÓN ADICIONAL</p>
+            <label for="Integrantes de su familia">
+                <p>Integrantes de su familia:</p>
+                <input type="text" id="familia" name="familia" class="campo" required />
+            </label>
+            <label for="Cantidad de niños">
+                <p>Cantidad de niños:</p>
+                <input type="text" id="niños" name="niños" class="campo" required />
+            </label>
+            <label for="¿En el pasado ha tenido mascotas?">
+                <p>¿En el pasado ha tenido mascotas?</p>
+                <textarea id="mascotas_tenidas" name="mascotas_tenidas" class="campo" required></textarea>
+            </label>
+            <label for="¿Actualmente posee mascotas?">
+                <p>¿Actualmente posee mascotas?</p>
+                <textarea id="posee_mascotas" name="posee_mascotas" class="campo" required></textarea>
+            </label>
+            <label for="Motivo de adopcion">
+                <p>¿Motivo por el cual desea adoptar?</p>
+                <textarea id="motivo_adopcion" name="motivo_adopcion" class="campo" required></textarea>
+            </label>
+        </div>
+    </div>
+    <div class="boton">
+        <p>La vida de un animal de compañía dura en promedio 15 años, algunas veces más otras menos, en el transcurso de este tiempo en su vida familiar y personal seguro que se presentarán muchos cambios, le puede ocurrir que se quede sin trabajo, que cambie su lugar de vivienda a uno más pequeño, se puede casar, separar ,pueden llegar nuevos miembros a su familia, se pueden despertar alergias, alguien puede enfermar gravemente e incluso morir, tenga en cuenta que ante cualquier adversidad deberá ser un adoptante responsable para que su animal de compañía no sea el que pague las consecuencias de estos posibles sucesos y sea él, el que termine sin hogar debido a lo mencionado anteriormente, por favor tenga en cuenta estas circunstancias, evalúe muy bien la importancia de tener un animalito de compañía, el cual debe ser para toda la vida y al cual se le debe brindar todo el amor, cuidado y cariño.</p><br>
+        <button type="submit" class="boton">DE ACUERDO</button>
+    </div>
+</form>
+        </section>
+    </main>
+    <footer class="contenedor_piePagina">
+        <section class="titulo__piePagina">
+            <h1>SANTUARIO</h1>
+        </section>
+        <section class="subtitulo__piePagina">
+            <a href="#" class="piePagina__cta">GUÍAS DE CUIDADO</a>
+            <a href="#" class="piePagina__cta">CONTACTO</a>
+            <a href="#" class="piePagina__cta">TERMINOS Y CONDICIONES</a>
+        </section>
+        <section class="piePagina">
+            <p>&copy; TODOS LOS DERECHOS RESERVADOS 2021</P>
+        </section>
+    </footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/splash.js"></script>
+
+</body>
+</html>
